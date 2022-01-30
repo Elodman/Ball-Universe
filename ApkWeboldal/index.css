@@ -1,0 +1,60 @@
+body {
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+
+}
+
+nav {
+    box-shadow: 0px 5px 6px rgb(37, 37, 37);
+}
+
+li a {
+    font-size: larger;
+    font-weight: 500;
+}
+
+main {
+    padding-top: 10px;
+    width: 100%;
+    height: 100vh;
+}
+
+footer {
+    width: 100%;
+    height: 10vh;
+}
+
+#letoltes {
+    margin-top: 6%;
+    background-color: rgb(70, 70, 70);
+    height: 500px ;
+    width: 800px;
+    border: 5px solid black;
+    border-radius: 25px ;
+}
+
+#letoltesgomb {
+    background-color: rgb(21, 255, 0);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    width: 200px;
+    margin-top: 100px;
+    font-family: 'Acme', sans-serif;
+    font-weight: 600;
+}
+
+#letoltesgomb:hover {
+    border-radius: 25px;
+    transition: 0.3s;
+    box-shadow: 3px 3px 10px black;
+}
